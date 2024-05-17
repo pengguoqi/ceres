@@ -16,3 +16,20 @@ since 2010. Ceres Solver can solve two kinds of problems.
 
 Please see [ceres-solver.org](http://ceres-solver.org/) for more
 information.
+
+## build
+
+```bash
+mkdir build 
+
+cd build 
+
+cmake ..  -DCMAKE_INSTALL_PREFIX=/home/pgq/ceres
+
+make 
+
+make install
+```
+
+
+
